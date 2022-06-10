@@ -50,6 +50,7 @@ a:hover{
     display: flex;
     padding: 20px;
     align-items: center;
+    justify-content: space-between;
     width: 100%;
 }
 .logo{
@@ -57,15 +58,6 @@ a:hover{
 }
 .logo a{
    color: white;
-}
-.menu-control-container{
-    display: none !important;
-    position: absolute !important;
-    right: 10px !important;
-    top: 25px !important;
-    font-size: 1.2rem !important;
-    background-color: var(--bgSecondary) !important;
-    border: none !important;
 }
 
 .loader{
@@ -83,13 +75,13 @@ a:hover{
 
 @media screen and (max-width:1170px){
     .main{
-        margin-left: 50px;
+        margin-left: 110px;
     }
 }
 
 @media screen and (max-width:1000px){
     .main{
-        margin-left: 100px;
+        margin-left: 180px;
     }
 }
 

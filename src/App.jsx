@@ -3,7 +3,6 @@ import { Routes, Route, Link } from 'react-router-dom';
 import { Layout, Typography, Space } from 'antd';
 import { Homepage, Navbar, Exchanges, Cryptocurrencies, CryptoDetails, News } from './components/index';
 import './App.css';
-import 'antd/dist/antd.css'
 
 const App = () => {
   return (
